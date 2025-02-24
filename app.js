@@ -4,7 +4,7 @@ let pageInicial = 0;
 let temaActual = "Tecnología";
 
 let noticias = {
-    "apiKey":"f3798e116eb342b2bae58e7f0cbd9c11",
+    "apiKey":"5ab8d57816694114b6bfe11471412301",
     fetchNoticias: function(categoria) {
         fetch(
             "https://newsapi.org/v2/everything?q="
